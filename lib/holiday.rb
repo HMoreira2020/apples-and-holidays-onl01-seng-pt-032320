@@ -50,7 +50,8 @@ def all_holidays_with_bbq(holiday_hash)
   end.flatten.compact
 end
 
-#  if .include? block evaluates to true and I use the .select method instead of .collect it will return the element which made the block evaluate to true and in this case is the hash {:fourth_of_july=>["Fireworks", "BBQ"]}.  For future, solve from here 
+#  if .include? block evaluates to true and I use the .select method instead of .collect it will return the element which made the block evaluate to true and in this case is the hash {:fourth_of_july=>["Fireworks", "BBQ"]}.  For future, 
+solve from here 
     
 
  
