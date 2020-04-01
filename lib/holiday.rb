@@ -50,27 +50,10 @@ def all_holidays_with_bbq(holiday_hash)
   end.flatten.compact
 end
 
-      #  if .include? block evaluates to true and I use the .select method instead of .collect it will return the element which made the block evaluate to true and in this case is the hash {:fourth_of_july=>["Fireworks", "BBQ"]}
-      
+#  if .include? block evaluates to true and I use the .select method instead of .collect it will return the element which made the block evaluate to true and in this case is the hash {:fourth_of_july=>["Fireworks", "BBQ"]}.  For future, ask how to solve from here 
+    
 
-  # {:winter => {
-  #     :christmas => ["Lights", "Wreath"],
-  #     :new_years => ["Party Hats"]
-  #   },
-  #   :summer => {
-  #     :fourth_of_july => ["Fireworks", "BBQ"]
-  #   },
-  #   :fall => {
-  #     :thanksgiving => ["Turkey"]
-  #   },
-  #   :spring => {
-  #     :memorial_day => ["BBQ"]
-  #   }
-  
-  # return an array of holiday names (as symbols) where supply lists
-  # include the string "BBQ"
-
-
+ 
 
 
 
